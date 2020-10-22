@@ -28,7 +28,7 @@ a = ref(a)
 print("TDS como referencia ", a)
 
 
-#los valores de las listas se pasan por referencia 
+#Los valores de las listas se pasan por referencia 
 
 def doblar_valores (numeros):
     for i,v in enumerate(numeros):

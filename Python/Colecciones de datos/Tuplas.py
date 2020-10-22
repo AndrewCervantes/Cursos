@@ -1,4 +1,4 @@
-#Tuplas.- Soncolecciones identicas a las listas pero no se pueden modificar.
+#Tuplas.- Son colecciones identicas a las listas pero no se pueden modificar.
 #Definicion de Tupla, podemos identificarlas porque los datos van en ().
 tupla = (100,'Hola',[1,2,3,4,5], -50,100)
 print("Tupla completa: ",tupla)
