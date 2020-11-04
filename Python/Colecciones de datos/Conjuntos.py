@@ -1,5 +1,5 @@
 #Conjuntos.
-#Son colecciones desordenadas de elementos únicos(no se repiten) para hacer pruebas de pertencia a grupos y elimicacion de elementos duplicados.
+#Son colecciones desordenadas de elementos únicos(no se repiten) para hacer pruebas de pertencia a grupos y eliminacion de elementos duplicados.
 #Conjunto vacio de elementos.
 conjunto = set()
 print(conjunto)
