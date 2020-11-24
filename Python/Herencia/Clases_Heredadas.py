@@ -1,6 +1,3 @@
-# Herencia
-#Capacidad de una clase de heredar atrributos y métodos de otra, además de agregar de nuevos o modificar los heredados.
-
 #Clase Madre o SuperClase
 class Producto:
     #Los atributos con None hace referencia de que nos son parametros obligatorio
@@ -52,18 +49,45 @@ class Libro(Producto):
 
 #Objeto de la clase adorno
 ad = Adorno(2034,"Vaso Adornado",15, "Vaso de porcelana adornado con arboles")
-#print(a)
+
 
 #Objeto de la clase alimento
 al = Alimento(2035,"Botellade Aceite",5,"250 ML")
 al.productor = "La Aceitera"
 al.distribuidor = "Distribuiciones SA"
-#print("Clase hija Alimento")
-#print(al)
+
 
 #Objeto de la clase libroo
 li =Libro(2036,"Cocina Mediterranea",9,"Recetas Sanas y buenas")
 li.isbn = "0-123456-78-9"
 li.autor = "Doña Juana"
-#print("Clase hija Libro")
-#print(li)
+
+#Objetos en la lista
+productos = [ad, al]
+productos.append(li)
+
+#
+def rebajar_producto(p,rebaja):
+    """Devuelve un producto con una rebaja en procentaje de su precio"""
+    p.pvp = p.pvp -(p.pvp/100* rebaja)
+    return p
+al_rebajado = rebajar_producto(al,10)
+
+
+
+#Recorrer una lista de objetos
+for p in productos:
+    print(p,"\n")
+
+
+#Recorrer una lista de objetos de las clases hijas
+for p in productos:
+    #Si el objeto p es de tipo Ardono
+    if(isinstance(p,Adorno)):
+        print(p.referencia,p.nombre)
+    elif (isinstance(p, Alimento)):
+        print(p.referencia,p.nombre, p.productor)
+    elif (isinstance(p, Libro)):
+        print(p.referencia,p.nombre, p.isbn)
+
+print(al_rebajado)
