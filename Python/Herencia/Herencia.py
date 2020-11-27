@@ -67,3 +67,9 @@ li.isbn = "0-123456-78-9"
 li.autor = "Doña Juana"
 #print("Clase hija Libro")
 #print(li)
+
+
+
+
+
+#Se debe de terminar el curso para diceimbre 
