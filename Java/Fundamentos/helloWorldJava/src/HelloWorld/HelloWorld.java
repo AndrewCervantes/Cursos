@@ -1,5 +1,7 @@
 package HelloWorld;
 
+import java.util.Scanner;
+
 /**
  * @author Christian Andres Cervantes Moreno
  */
@@ -56,6 +58,64 @@ public class HelloWorld {
         System.out.println("Comilla Simple: \'"+nombre+"'");
         //Comilla Doble
         System.out.println("Comillas Dobles: \" "+nombre+" \"");
+        
+        
+        /*
+        System.out.println("Escribe tu nombre: ");
+        Scanner consola = new Scanner(System.in);
+        String usuario2 = consola.nextLine();
+        System.out.println("Usuario: "+ usuario2);
+        System.out.println("Escribe el titulo: ");
+        String titulo2 = consola.nextLine();
+        System.out.println("Resultado: " + titulo2 + " " + usuario);
+        */
+        
+        /*Tipos primitivos enteros: byte, short, int, long
+        byte = 8 bits
+        short = 16 bits
+        int = 32 bits
+        long = 64 bits     
+        */
+        
+        //BYTE 
+        byte numeroByte = (byte) 129;
+        System.out.println("Valor minimo byte: "+ Byte.MIN_VALUE);
+        System.out.println("Valor maximo byte: "+ Byte.MAX_VALUE);
+        
+        //SHORT
+        short numeroShort = (short)32768;
+        System.out.println("numeroShort: " + numeroShort);
+        System.out.println("Valor minimo short: "+ Short.MIN_VALUE);
+        System.out.println("Valor maximo short: "+ Short.MAX_VALUE);
+        
+        // INT
+        int numeroInt = (int)2147483648L; //literal de timpo long
+        System.out.println("nuemorInt: "+ numeroInt);
+        System.out.println("Valor minimo int: " + Integer.MIN_VALUE);
+        System.out.println("Valor maximo int: " + Integer.MAX_VALUE);
+        
+        //LONG
+        long numeroLong = 10;
+        System.out.println("numeroLong: "+ numeroLong);
+        System.out.println("Valor minimo long: " + Long.MIN_VALUE);
+        System.out.println("Valor maximo long: " + Long.MAX_VALUE);
+        
+        /*Tipos primitivos float: float y doble
+        */
+        
+        
+        //FLOAT
+        float numeroFloat = (float)10.0; //Tipo flotante
+        System.out.println("numeroFloat: "+ numeroFloat);
+        System.out.println("Valor minimo Float: "+ Float.MIN_VALUE);
+        System.out.println("Valor maximo FLoat: "+ Float.MAX_VALUE);
+        
+        //DOUBLE
+        double numeroDouble = 10;
+        System.out.println("numeroDouble: "+ numeroDouble);
+        System.out.println("Valor minimo Double: "+ Double.MIN_VALUE);
+        System.out.println("Valor maximo Double: "+ Double.MAX_VALUE);
+        
         
     }
 
