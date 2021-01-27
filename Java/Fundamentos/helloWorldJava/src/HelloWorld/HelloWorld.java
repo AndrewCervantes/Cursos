@@ -115,8 +115,58 @@ public class HelloWorld {
         System.out.println("numeroDouble: "+ numeroDouble);
         System.out.println("Valor minimo Double: "+ Double.MIN_VALUE);
         System.out.println("Valor maximo Double: "+ Double.MAX_VALUE);
+       
+        //CHAR 
+        char caracter = 'a';
+        System.out.println("Mi caracter es: "+ caracter);
+        
+        //código unicode
+        char varChar = '\u0021';
+        System.out.println("varchar: "+ varChar);
+        
+        char varCharDecimal = 33;
+        System.out.println("varCharDecimal: " + varCharDecimal);
+        
+        char varCharSimbolo = '!';
+        System.out.println("varCharSimbolo: "+ varCharSimbolo);
+        
+        //BOOLEAN
+        boolean varBoolean = false;
+        System.out.println("vaBoolean: "+varBoolean);
+        
+        if (varBoolean){
+            System.out.println("La bandera es verdadera");
+        }
+        else{
+            System.out.println("La bandera es falsa");
+        }
+        
+        //Ejemplo de edad
+        int edad = 15;
+        boolean adulto = edad >=18;
+        if(adulto){
+           System.out.println("Eres mayor de edad");
+        }
+        else{
+           System.out.println("Eres menor de edad");
+        }
         
         
+        //CONVERSIÓN DE TIPOS PRIMITIVOS
+        
+        // Convertir String --> Int
+        String convertir = "20";
+        int convertir_Entero = Integer.parseInt(convertir);
+        System.out.println("convertir_Entero: "+(convertir_Entero + 10));
+        
+        //Ejercicio
+        Scanner consola = new Scanner (System.in);
+        System.out.println("Ingresa tu edad: ");
+        convertir_Entero = Integer.parseInt(consola.nextLine());
+        System.out.println("convertir = " + convertir_Entero);
+        
+        
+  
     }
 
 }
