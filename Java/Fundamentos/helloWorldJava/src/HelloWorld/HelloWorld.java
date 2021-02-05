@@ -196,8 +196,21 @@ public class HelloWorld {
             System.out.println("El número "+numero+" es par.");
         }
         else{
-            System.out.println("El número "+numero+" no es par.");
+            System.out.println("El número "+numero+" es impar.");
         }
+        
+        //Ejercicio de rectangulo
+        System.out.println("Ingresa el ancho: ");
+        int ancho = Integer.parseInt(dato.nextLine());
+        System.out.println("Ingresa la altura: ");
+        int altura = Integer.parseInt(dato.nextLine());
+        int area = ancho * altura;
+        int perimetro = (ancho+altura)*2;
+        System.out.println("El area del rectangulo es: "+ area);
+        System.out.println("El perimetro del rectangulo es: "+ perimetro);
+        
+        
+        
   
     }
 
