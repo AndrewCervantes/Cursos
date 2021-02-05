@@ -160,12 +160,44 @@ public class HelloWorld {
         System.out.println("convertir_Entero: "+(convertir_Entero + 10));
         
         //Ejercicio
-        Scanner consola = new Scanner (System.in);
-        System.out.println("Ingresa tu edad: ");
-        convertir_Entero = Integer.parseInt(consola.nextLine());
-        System.out.println("convertir = " + convertir_Entero);
+        //Scanner consola = new Scanner (System.in);
+        //System.out.println("Ingresa tu edad: ");
+        //convertir_Entero = Integer.parseInt(consola.nextLine());
+        //System.out.println("convertir = " + convertir_Entero);
         
         
+        //Operadores Aritmeticos
+        int a = 3, b = 2;
+        
+        //Suma
+        int resultado = a + b;
+        System.out.println("El resultado de la suma es: "+ resultado);
+        
+        //Resta
+        resultado = a - b;
+        System.out.println("El resultado de la resta es: "+resultado);
+        
+        //División
+        float resultado2 = (float)a / (float)b;
+        System.out.println("El resultado de la división es: "+resultado2);
+        
+        //Multiplicación
+        resultado = a * b;
+        System.out.println("El resultado de la multiplicaci{on es: " + resultado);
+        
+        //Modulo (residuo)
+        resultado = a%b;
+        System.out.println("El resultado del residuo de la división es: " + resultado);
+        
+        Scanner dato = new Scanner(System.in);
+        System.out.println("Ingresa un número");
+        int numero = Integer.parseInt(dato.nextLine());
+        if (numero %2 == 0){
+            System.out.println("El número "+numero+" es par.");
+        }
+        else{
+            System.out.println("El número "+numero+" no es par.");
+        }
   
     }
 
