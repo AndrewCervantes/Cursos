@@ -91,3 +91,19 @@ for p in productos:
         print(p.referencia,p.nombre, p.isbn)
 
 print(al_rebajado)
+
+#Copiar una clase en otra
+import copy
+
+copia_ad =  copy.copy(ad)
+print ("Imprimiendo copia")
+print(copia_ad)
+
+copia_ad.nombre = "Cambiando nombre"
+print(copia_ad)
+
+print ("Imprimiendo original")
+print(ad)
+
+#Polimorfismo
+#Propiedad de la herencia en que objetos de distintas subclases pueden responder una misma acción.

@@ -56,7 +56,7 @@ public class Operadores_en_Java {
         */
         
         
-        //Operadores de Asignaci{on
+        //Operadores de Asignación
         int c = a + 5 - b;
         System.out.println("El resultado de c es: "+ c);
         
@@ -69,6 +69,10 @@ public class Operadores_en_Java {
         
         a -= 2; // a = a -2
         System.out.println("a: "+a);
+        //Tambien se puede con *=, /=, %=
+        
+        
+        //Operadores Unitarios
     }
     
 }
