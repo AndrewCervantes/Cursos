@@ -2,10 +2,10 @@
 // Estandar de lenguaje - Es la manera adecuada de escribir código.
 
 //Camel Case
-var telefonoMadre
+var telefonoMadre;
 
 //Snake Case
-var telefono_madre
+var telefono_madre;
 
 
 /* let vs var
@@ -18,3 +18,16 @@ if(true){
     let saludo = 'hola';
     console.log(saludo)
 }
+
+//Tipos de Datos
+
+//Number (entero o decimal)
+let edad = 32;
+let peso = 23.43;
+
+
+//String (textos alfanumericos de caulquier longitud)
+let nombre = "christian";
+
+//Boolean (true o false)
+let nacioEnMexico = true;
