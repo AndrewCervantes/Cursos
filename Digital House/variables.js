@@ -25,9 +25,26 @@ if(true){
 let edad = 32;
 let peso = 23.43;
 
-
 //String (textos alfanumericos de caulquier longitud)
 let nombre = "christian";
 
 //Boolean (true o false)
 let nacioEnMexico = true;
+
+
+//Operadores 
+
+// Asignación =
+let paisDeNacimiento = 'México';
+
+//Aritmeticos +,-,*,/,%
+
+//Incremento ++ o Decremento --
+
+//Comparación simple ==
+//Comapración estricta devuelve un booleano y hace la comparacion entre el valor y el tipo de dato es el mismo.
+//Desigualga !=
+//Mayor que >
+//Mayor o igual >=
+//Menor que <
+//Menor o igual que <=
