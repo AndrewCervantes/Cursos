@@ -42,8 +42,9 @@ let paisDeNacimiento = 'México';
 //Incremento ++ o Decremento --
 
 //Comparación simple ==
-//Comapración estricta devuelve un booleano y hace la comparacion entre el valor y el tipo de dato es el mismo.
-//Desigualga !=
+//Comapración estricta === devuelve un booleano y hace la comparacion entre el valor y el tipo de dato es el mismo.
+//Desigualdad !=
+//Desigualdad estricta !==
 //Mayor que >
 //Mayor o igual >=
 //Menor que <
