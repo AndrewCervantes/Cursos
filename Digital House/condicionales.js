@@ -55,3 +55,27 @@ function puedeSubirse(alturaPersona, vieneConCompania, tieneAfeccionCardiaca){
 function permiso(alturaPersona, vieneConCompania){
     return alturaPersona >= 1.5 || (alturaPersona >= 1.2 && vieneConCompania)
 }
+/*
+ el jurado de un torneo de programación, nos pidió que desarrollemos la función medallaSegunPuesto, la cual retorne la medalla que le corresponde a los primeros puestos, según la siguiente lógica:
+
+Primer puesto: le corresponde "Oro"
+Segundo puesto: le corresponde "Plata"
+Tercer puesto: le corresponde "Bronce"
+Otros puestos: le corresponde "Seguí participando"
+Si ejecutáramos la función con los siguientes puestos, el resultado se
+*/
+
+function medallaSegunPuesto(puesto){
+    if (puesto == 1){
+        return "Oro";
+    }
+    else if (puesto == 2){
+        return "Plata";
+    }
+    else if (puesto == 3){
+        return "Bronce";
+    }
+    else {
+        return "Seguí participando";
+    }
+}
