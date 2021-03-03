@@ -25,3 +25,15 @@ function pasandoPorLosPares(){
     }
 }
 
+function imprimirAzul(numeroX){
+    for ( let i = 0; i< numeroX; i++){
+        console.log("Azul");
+    }
+}
+
+function sumar5MonedasDe25Centavos(){
+    for ( let i = 0; i < 5; i++){
+         valor = valor + 0.25;
+    }
+    return valor;
+}
