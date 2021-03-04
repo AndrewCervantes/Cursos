@@ -79,3 +79,5 @@ function medallaSegunPuesto(puesto){
         return "Seguí participando";
     }
 }
+
+
