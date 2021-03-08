@@ -57,3 +57,24 @@ function medallaSegunPuesto(numero){
 }
 
 console.log(medallaSegunPuesto(1));
+
+
+// Sumatorias
+function sumatoriaGananciasSemestre(unSemestre) {
+    return unSemestre[0] + unSemestre[1] +
+        unSemestre[2] + unSemestre[3] +
+        unSemestre[4] + unSemestre[5];
+}
+
+
+function gananciaTotal(cantidades){
+    let valor = 0;
+    for(i = 0; i <= cantidades.length ; i++){
+        valor = cantidades[i] + valor;
+    }
+    return valor;
+    console.log(valor);
+}
+console.log(gananciaTotal( [2, 3] ));
+console.log(gananciaTotal( [2, 3, 1, 8, 8, -1] ));
+console.log(gananciaTotal( [] ));
