@@ -1,18 +1,18 @@
-/* Código de JS y HTML cominado */
+/* JSX - Código de JS y HTML combinado */
 
 import React from "react";
 import ReactDOM from 'react-dom/client';
+import { HelloWorldApp } from "./HelloWorldApp";
+//import { App } from './HelloWorldApp'
 
-/* Funcional component  - componentes basados en funciones*/
- function App(){
-    return (<h1> Hola Mundo !!!</h1>);
 
- }
+
 
  /* Renderizar */
  ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <App />
+        <HelloWorldApp />
     </React.StrictMode>
  )
+ 
  
