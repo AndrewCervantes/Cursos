@@ -12,14 +12,9 @@ import { HelloWorldApp } from "./HelloWorldApp";
  /* Renderizar */
  ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <HelloWorldApp />
+        <FirtsApp />
     </React.StrictMode>
  )
- /* Renderizar */
- ReactDOM.createRoot( document.getElementById('first')).render(
-   <React.StrictMode>
-       <FirtsApp />
-   </React.StrictMode>
-)
+
  
  
