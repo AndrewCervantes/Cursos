@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 import { FirtsApp } from "./FirtsApp";
 import { HelloWorldApp } from "./HelloWorldApp";
 //import { App } from './HelloWorldApp'
+import './styles.css';
 
 
 
@@ -12,14 +13,9 @@ import { HelloWorldApp } from "./HelloWorldApp";
  /* Renderizar */
  ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <HelloWorldApp />
+        <FirtsApp />
     </React.StrictMode>
  )
- /* Renderizar */
- ReactDOM.createRoot( document.getElementById('first')).render(
-   <React.StrictMode>
-       <FirtsApp />
-   </React.StrictMode>
-)
+
  
  
