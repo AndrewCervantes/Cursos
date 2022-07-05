@@ -14,8 +14,7 @@ import './styles.css';
  /* Renderizar */
  ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <FirtsApp2 title ="Hola Mundo" subTitle ={1010} />
-
+        <FirtsApp2 title="Cervantes" subTitle={123}/>
     </React.StrictMode>
  )
 
