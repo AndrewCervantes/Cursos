@@ -27,6 +27,8 @@ const getResult = (a,b) => {
 
 /* Forma 2   <> - nodo padre*/
 export const FirtsApp = () => {
+
+  
   return (
     <>
       <h1>String</h1>
@@ -42,6 +44,9 @@ export const FirtsApp = () => {
     </>
   )
 }
+
+
+
 
 
 
