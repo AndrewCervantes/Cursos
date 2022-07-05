@@ -19,7 +19,7 @@ export const FirtsApp2 = (props) => {
 /* Libreria para los PropTypes */
 import PropTypes from 'prop-types';
 
-export const FirtsApp2 = ({title, subTitle}) =>{
+export const FirtsApp2 = ({title, subTitle, name}) =>{
   /* Validación de props  forma no cool
   if (!title ){
     throw new Error('El title no existe');
@@ -27,16 +27,23 @@ export const FirtsApp2 = ({title, subTitle}) =>{
   */
   return(
     <>
-      <h1> Christian</h1>
       <h2>{title}</h2>
-      <p>{subTitle + 10}</p>
-      <p>soy un subtitulo</p>
+      <p>{subTitle}</p>
+      <p>{ name }</p>
     </>
   )
 }
+// Los default props ingresnan antes que los porpTypes
 
 /* Validación de props */
 FirtsApp2.PropTypes ={
   title: PropTypes.string.isRequired,
-  subTitle: PropTypes.number.isRequired,
+  subTitle: PropTypes.string.isRequired,
+}
+
+/* Default props */ 
+FirtsApp2.defaultProps ={
+  title: 'No ha título',
+  subTitle: 'No hay subtitulo',
+  name: 'Christian Cervantes'
 }
